@@ -5,7 +5,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 import pandas as pd
-df = pd.read_csv('D:/coursera/python/Dash/voting_data_eng.csv')
+df = pd.read_csv('voting_data_eng.csv')
 
 names = list(set(df['region_name']))
 names.sort()
